@@ -1,0 +1,21 @@
+{
+  "node": "GENESIS:e14f9a8d",
+  "accounts": [
+    "LadbotoneLad",
+    "backupsonbackups-cyber"
+  ],
+  "tag_name": "v1.0.0-dual-root",
+  "tag_hash": "9fb71a9dd210ac18f3c38f4aa5e9e2be8516fcd8",
+  "commit_hash": "cfc46fb551c153ff5300c64233c5c4faf24cc8a2",
+  "tree_hash": "ef2c491d9ffe4cf3d06e14b9925393a5aec901f6",
+  "fs_sha256": "b120031e9e98c9059644952ae66f615e35847a827a12d40c03f23e85d457bff1",
+  "master_1024_root": "d09ac3a7954bbaf825e4b43c387c4dc705d65127630109e18f2d687c4461e007",
+  "dimensions_5d": {
+    "3d_spatial_entropy": 3.9389,
+    "4d_temporal_hours": 9.98,
+    "5d_account_w": 2.83,
+    "hyper_radius_R5D": 1.9251
+  },
+  "fisheye_phi_5d": 0.4993,
+  "pure_termux_gas_5d": 397066
+}

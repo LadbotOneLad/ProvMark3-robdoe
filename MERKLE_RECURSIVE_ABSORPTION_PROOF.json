@@ -1,0 +1,22 @@
+{
+  "node": "GENESIS:e14f9a8d",
+  "policy": "NEVER_DELETE_ALWAYS_ABSORB",
+  "fsck_status": "PASSED_STRICT",
+  "accounts": [
+    "LadbotoneLad",
+    "backupsonbackups-cyber"
+  ],
+  "merkle_tree_hash": "ef2c491d9ffe4cf3d06e14b9925393a5aec901f6",
+  "parent_commit_hash": "cfc46fb551c153ff5300c64233c5c4faf24cc8a2",
+  "tag_hash": "9fb71a9dd210ac18f3c38f4aa5e9e2be8516fcd8",
+  "fs_sha256": "6ea6ffaa7d6de95e3219800dce9e6c456c2ec95ca9db09cbe457034a809e02a0",
+  "master_1024_absorbed_root": "3518faf4276174276375415b051b3ff6a192eaa5e99ff209746ce9bea6378277",
+  "dimensions_5d": {
+    "3d_spatial_entropy": 3.7825,
+    "4d_temporal_hours": 10.04,
+    "5d_account_w": 2.83,
+    "hyper_radius_R5D": 1.9389
+  },
+  "fisheye_phi_5d": 0.495,
+  "pure_termux_gas_5d": 388279
+}

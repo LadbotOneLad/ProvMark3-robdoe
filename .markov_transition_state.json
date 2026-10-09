@@ -1,0 +1,65 @@
+{
+  "transitions": [
+    {
+      "from": "GENESIS",
+      "to": "SEAL",
+      "entropy_anchor": "845c162bb3b2"
+    },
+    {
+      "from": "SEAL",
+      "to": "LATTICE",
+      "entropy_anchor": "9abf7c46d507"
+    },
+    {
+      "from": "LATTICE",
+      "to": "LATTICE",
+      "entropy_anchor": "6824898ab60d"
+    },
+    {
+      "from": "LATTICE",
+      "to": "SEAL",
+      "entropy_anchor": "3ed40f3a6e58"
+    },
+    {
+      "from": "SEAL",
+      "to": "SEAL",
+      "entropy_anchor": "52685173939c"
+    },
+    {
+      "from": "SEAL",
+      "to": "LATTICE",
+      "entropy_anchor": "6d36c573a655"
+    },
+    {
+      "from": "LATTICE",
+      "to": "HARMONIZE",
+      "entropy_anchor": "bf4c50483957"
+    },
+    {
+      "from": "HARMONIZE",
+      "to": "ABSORB",
+      "entropy_anchor": "28fabba3f457"
+    },
+    {
+      "from": "ABSORB",
+      "to": "ABSORB",
+      "entropy_anchor": "78f0020dc1b1"
+    },
+    {
+      "from": "ABSORB",
+      "to": "HARMONIZE",
+      "entropy_anchor": "654c6fa4a475"
+    },
+    {
+      "from": "HARMONIZE",
+      "to": "SEAL",
+      "entropy_anchor": "846c7321a6ac"
+    },
+    {
+      "from": "SEAL",
+      "to": "RECURSE",
+      "entropy_anchor": "f3fa359c2c2a"
+    }
+  ],
+  "last_state": "RECURSE"
+}

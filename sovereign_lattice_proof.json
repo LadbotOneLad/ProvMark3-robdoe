@@ -1,0 +1,7 @@
+{
+    "genesis": "e14f9a8d",
+    "operator": "Eric The Viking (PHILL)",
+    "merkle_root": "977d0666344443ab0567be976febdd3c45617c516a847d68442b37dd6c7b58ff",
+    "algorithm": "SHA3-256 Byzantine Lattice Consensus",
+    "total_nodes_hashed": 106
+}

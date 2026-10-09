@@ -1,0 +1,169 @@
+---
+import { withBase } from '../lib/paths';
+
+const today = new Date();
+---
+
+<footer>
+	<!-- Contact Section -->
+	<div class="contact-section">
+		<h2>Need Assistance?</h2>
+		<p>We are more than happy to answer your question and hear your comments.</p>
+		<a href="mailto:awesome-gs@greensoftware.foundation" class="contact-button">Contact Us</a>
+	</div>
+
+	<div class="footer-container">
+		<div class="footer-content">
+			<!-- Logo and Copyright Section -->
+			<div class="footer-section">
+				<img src={withBase('/AGS_Logo.svg')} alt="Awesome Green Software" class="footer-logo" />
+				<p class="copyright-text">
+					Copyright © {today.getFullYear()} Joint Development Foundation Projects, LLC,<br />
+					Green Software Foundation Series
+				</p>
+				<p class="affiliate-text">
+					The Joint Development Foundation Projects, LLC is an affiliate of the Linux Foundation.
+				</p>
+			</div>
+
+			<!-- Links Section -->
+			<div class="footer-section">
+				<h3>LINKS</h3>
+				<ul>
+					<li><a href={withBase('/contribute')}>Submitting an entry to the list</a></li>
+					<li><a href={withBase('/about')}>About GSF</a></li>
+					<li><a href="https://github.com/Green-Software-Foundation">GitHub Repo</a></li>
+				</ul>
+			</div>
+
+			<!-- Legal Section -->
+			<div class="footer-section">
+				<h3>LEGAL</h3>
+				<ul>
+					<li><a href="https://greensoftware.foundation/policy/trademark/">Trademark Policy</a></li>
+					<li><a href="https://greensoftware.foundation/policy/terms">Privacy Policy</a></li>
+					<li><a href="https://greensoftware.foundation/policy/terms">Terms and Conditions</a></li>
+				</ul>
+			</div>
+
+			<!-- GSF Info Section -->
+			<div class="footer-section">
+				<h3>GSF INFO</h3>
+				<ul>
+					<li><a href="https://greensoftware.foundation">Website</a></li>
+					<li><a href="https://twitter.com/gsfcommunity">Twitter</a></li>
+					<li><a href="https://www.linkedin.com/company/green-software-foundation">LinkedIn</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<style>
+	.footer-container {
+		background-color: rgb(0, 77, 64);
+		color: white;
+		padding: 4rem 2rem;
+	}
+
+	.footer-content {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 1fr;
+		gap: 2rem;
+	}
+
+	.footer-section {
+		padding: 0 1rem;
+	}
+
+	.footer-logo {
+		width: 300px;
+		height: auto;
+		margin-bottom: 1.5rem;
+	}
+
+	.copyright-text, .affiliate-text {
+		font-size: 0.9rem;
+		line-height: 1.5;
+		color: rgba(255, 255, 255, 0.7);
+		margin-bottom: 1rem;
+	}
+
+	h3 {
+		color: rgb(182, 218, 156);
+		font-size: 1rem;
+		font-weight: 600;
+		margin-bottom: 1.5rem;
+		text-transform: uppercase;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		margin-bottom: 0.75rem;
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+		font-size: 0.9rem;
+		transition: color 0.2s ease;
+	}
+
+	a:hover {
+		color: rgb(182, 218, 156);
+	}
+
+	@media (max-width: 768px) {
+		.footer-content {
+			grid-template-columns: 1fr;
+			gap: 3rem;
+		}
+
+		.footer-section {
+			padding: 0;
+		}
+	}
+
+	/* Add new styles for the contact section */
+	.contact-section {
+		background-color: rgb(0, 128, 107); /* Lighter green for contrast */
+		color: white;
+		text-align: center;
+		padding: 3rem 2rem;
+	}
+
+	.contact-section h2 {
+		color: white;
+		font-size: 1.75rem;
+		margin-bottom: 1rem;
+	}
+
+	.contact-section p {
+		color: rgba(255, 255, 255, 0.9);
+		margin-bottom: 1.5rem;
+		font-size: 1.1rem;
+	}
+
+	.contact-button {
+		display: inline-block;
+		background-color: white;
+		color: rgb(0, 128, 107);
+		padding: 0.75rem 2rem;
+		border-radius: 8px;
+		text-decoration: none;
+		font-weight: 600;
+		transition: all 0.2s ease;
+	}
+
+	.contact-button:hover {
+		background-color: rgba(255, 255, 255, 0.9);
+		transform: translateY(-2px);
+	}
+</style>

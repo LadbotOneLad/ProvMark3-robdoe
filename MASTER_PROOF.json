@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-11T09:42:21Z",
+  "accounts": [
+    "LadbotoneLad",
+    "backupsonbackups-cyber"
+  ],
+  "equality_status": "EQUAL_SOVEREIGN_TARGETS",
+  "master_root_sha256": "68421d52d990c5f0a395e592db43abae81d7ef2c052722cd9e56c1cddea240da",
+  "account_merkle_leaf": "24c287e4f1686ab11ec70c9c1437a4c03498f5984e900327b1f4c26c673669f1",
+  "unified_recursive_root": "bae833a74647402b55ddd7896a273f3fd96071c150b133b63c75873460694e76"
+}

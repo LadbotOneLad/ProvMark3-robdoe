@@ -1,0 +1,19 @@
+{
+    "conductor": "Eric The Viking (PHILL)",
+    "architect": "robdoe",
+    "genesis": "e14f9a8d",
+    "doctrine": "Opencode Native Environment Integration",
+    "etherscan_tx": "D52I6WMPM4A2QW62PATAN5JS9YN962SA71",
+    "harmonic_constants": {
+        "arcsec_total": 1296000,
+        "divisor": 3600,
+        "seconds_day": 86400,
+        "hours_day": 24,
+        "reciprocal_scale": 0.0001388888888888889,
+        "harmonic_ratio": 0.052
+    },
+    "stack_depth": 216,
+    "piano_keys": 88,
+    "runtime_environment": "opencode",
+    "opencode_super_root": "9ab851d6a1fd596c259a87514f27f3f0cc7dc08ca88a7fa4abe0489f9e7fdbb329f8ad25a0aaba01e3bdff69a6b72288440d790ccfcd1fab6023de9a113300fe"
+}

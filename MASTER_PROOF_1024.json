@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-09-11T09:49:25Z",
+  "accounts": [
+    "LadbotoneLad",
+    "backupsonbackups-cyber"
+  ],
+  "equality_status": "EQUAL_SOVEREIGN_TARGETS",
+  "master_root_sha256": "68421d52d990c5f0a395e592db43abae81d7ef2c052722cd9e56c1cddea240da",
+  "unified_1024_root": "7f3b78823d1f9ccac60d20992abc1d587194ea95281dc6e2c60d88bdb13fc1297b1d1ab963e3bc622f91a18b4b0c68b860ee6b76b4caa599217c46411c7be1ad9ac58e71f2f241f92ec1b236d4f8836f30119ecc60be80c51b716a00c259678b959ea2a9f6cb21dc69020b8ff9495503842f65c34f99c28327c648d9a7a0fee7"
+}
