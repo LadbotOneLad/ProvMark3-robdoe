@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sovereign Registry dApp - Dual Asset Feed</title>
+    <style>
+        body { background: #0f172a; color: #38bdf8; font-family: monospace; padding: 2rem; }
+        .box { border: 1px solid #38bdf8; padding: 1.5rem; border-radius: 8px; margin-top: 1rem; background: #1e293b; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+        button { background: #38bdf8; color: #0f172a; border: none; padding: 0.5rem 1rem; font-weight: bold; cursor: pointer; border-radius: 4px; margin-top: 1rem; }
+        button:hover { background: #0ea5e9; }
+    </style>
+</head>
+<body>
+    <h1>Sovereign Registry dApp Layer</h1>
+    <div class="box">
+        <h3>System Invariant: <span id="invariant">932808725</span></h3>
+        <p><strong>DAG Root Hash:</strong> e05efe928681a7da0da1c63c97732dd0f01e50ff108211abb2f1c6d0991afb3f</p>
+        
+        <div class="grid">
+            <div style="border: 1px solid #0ea5e9; padding: 1rem; border-radius: 6px;">
+                <h4>Gecko Coin (GECKO)</h4>
+                <p id="gecko-status">Status: Standby</p>
+                <p>Network: Solana / Base</p>
+            </div>
+            <div style="border: 1px solid #0ea5e9; padding: 1rem; border-radius: 6px;">
+                <h4>Echo Protocol (ECHO)</h4>
+                <p id="echo-status">Status: Standby</p>
+                <p>Network: MoveVM / Bitcoin Yield</p>
+            </div>
+        </div>
+
+        <button onclick="fetchFeeds()">Sync Dual Asset Feeds</button>
+        <p id="status" style="margin-top: 1rem; color: #4ade80;"></p>
+    </div>
+    
+    <script>
+        function fetchFeeds() {
+            // Simulated live feed connection anchored to the registry invariant
+            document.getElementById('gecko-status').innerText = "Price Feed: Active (~$0.0000001)";
+            document.getElementById('echo-status').innerText = "Yield Feed: Active (~$0.0017 / MoveVM)";
+            document.getElementById('status').innerText = "Status: Dual assets synchronized successfully under M = 932808725.";
+        }
+    </script>
+</body>
+</html>
