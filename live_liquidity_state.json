@@ -1,0 +1,35 @@
+{
+  "liquidity_data": {
+    "invariant_base": 932808725,
+    "timestamp": "2026-10-09T12:10:12.219824+00:00",
+    "pools": {
+      "BTC": {
+        "volume": 79.08,
+        "anchor": 76.0,
+        "status": "SECURED_LEDGER"
+      },
+      "HYPE": {
+        "volume": 10600.0,
+        "status": "ACTIVE_YIELD"
+      },
+      "BNB": {
+        "volume": 500.0,
+        "status": "LIQUID_RESERVE"
+      },
+      "CHECK": {
+        "volume": 753.0,
+        "status": "VERIFIED_ATTESTATION"
+      },
+      "GECKO": {
+        "volume": 10000.0,
+        "status": "POOL_SYNC"
+      },
+      "ECHO": {
+        "volume": 500.0,
+        "status": "MOVEVM_STAKED"
+      }
+    },
+    "system_status": "ABSOLUTE_EQUILIBRIUM"
+  },
+  "hyper_seal": "25108f1e36c35001533c6d7dc326c7d3104f9fe278715eb5b6df11a7713ca96221cea1d78a4904953ef5a59151b45529f0caa12177c9878adbb3b822ead582b7"
+}
