@@ -1,0 +1,35 @@
+{
+    "name": "Sovereign Registry - GECKO Audit Record",
+    "description": "Cryptographically anchored tax pooling ledger entry under system invariant M = 932808725.",
+    "image": "ipfs://bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi",
+    "attributes": [
+        {
+            "trait_type": "Asset Symbol",
+            "value": "GECKO"
+        },
+        {
+            "trait_type": "System Invariant",
+            "value": 932808725
+        },
+        {
+            "trait_type": "Units Disposed",
+            "value": 10000
+        },
+        {
+            "trait_type": "Proceeds (AUD)",
+            "value": 1.2
+        },
+        {
+            "trait_type": "Cost Basis Deducted (AUD)",
+            "value": 0.5
+        },
+        {
+            "trait_type": "Capital Gain/Loss (AUD)",
+            "value": 0.7
+        },
+        {
+            "trait_type": "Framework",
+            "value": "ATO Capital Property / HMRC Pooling"
+        }
+    ]
+}
